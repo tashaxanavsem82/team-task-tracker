@@ -19,7 +19,8 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 // Route to handle GET requests to '/api/tasks'
 app.get('/api/tasks', (req, res) => {
-  res.send('GET request to the homepage');
+  // TODO: Replace with actual data retrieval logic
+  res.send('GET request to the homepage');  // Placeholder response
 });
 
 // Start the server and listen for incoming requests
